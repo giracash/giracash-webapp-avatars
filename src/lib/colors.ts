@@ -1,68 +1,68 @@
 export const BACKGROUND_COLORS = [
-  'F7F9FC',
-  'EEEDFD',
-  'FFEBEE',
-  'FDEFE2',
-  'E7F9F3',
-  'EDEEFD',
-  'ECFAFE',
-  'F2FFD1',
-  'FFF7E0',
-  'FDF1F7',
-  'EAEFE6',
-  'E0E6EB',
-  'E4E2F3',
-  'E6DFEC',
-  'E2F4E8',
-  'E6EBEF',
-  'EBE6EF',
-  'E8DEF6',
-  'D8E8F3',
-  'ECE1FE'
-]
+	'#94A3B8', // SLATE-400
+	'#9CA3AF', // GRAY-400
+	'#A1A1AA', // ZINC-400
+	'#A3A3A3', // NEUTRAL-400
+	'#A8A29E', // STONE-400
+	'#A3E635', // LIME-400
+	'#6EE7B7', // EMERALD-400
+	'#4ADE80', // GREEN-400
+	'#34D399', // TEAL-400
+	'#22D3EE', // CYAN-400
+	'#38BDF8', // SKY-400
+	'#60A5FA', // BLUE-400
+	'#818CF8', // INDIGO-400
+	'#A5B4FC', // VIOLET-400
+	'#F472B6', // PINK-400
+	'#FB7185', // ROSE-400
+	'#FACC15', // YELLOW-400
+	'#FBBF24', // AMBER-400
+	'#F59E42', // ORANGE-400
+	'#F87171', // RED-400
+];
 
 export const TEXT_COLORS = [
-  '060A23',
-  '4409B9',
-  'BD0F2C',
-  'C56511',
-  '216E55',
-  '05128A',
-  '1F84A3',
-  '526E0C',
-  '935F10',
-  '973562',
-  '69785E',
-  '2D3A46',
-  '280F6D',
-  '37364F',
-  '363548',
-  '4D176E',
-  'AB133E',
-  '420790',
-  '222A54',
-  '192251'
-]
+	'#0F172A', // SLATE-900
+	'#111827', // GRAY-900
+	'#18181B', // ZINC-900
+	'#171717', // NEUTRAL-900
+	'#292524', // STONE-900
+	'#365314', // LIME-900
+	'#064E3B', // EMERALD-900
+	'#166534', // GREEN-900
+	'#134E4A', // TEAL-900
+	'#083344', // CYAN-900
+	'#0C4A6E', // SKY-900
+	'#1E3A8A', // BLUE-900
+	'#312E81', // INDIGO-900
+	'#3730A3', // VIOLET-900
+	'#831843', // PINK-900
+	'#881337', // ROSE-900
+	'#713F12', // YELLOW-900
+	'#78350F', // AMBER-900
+	'#7C2D12', // ORANGE-900
+	'#7F1D1D', // RED-900
+];
 
 export const SHAPE_COLORS = [
-  '060A23',
-  '5E36F5',
-  'E11234',
-  'E87917',
-  '3EA884',
-  '0618BC',
-  '0FBBE6',
-  '87B80A',
-  'FFC933',
-  'EE77AF',
-  '69785E',
-  '2D3A46',
-  '280F6D',
-  '37364F',
-  '363548',
-  '4D176E',
-  'AB133E',
-  '420790',
-  '222A54',
-  '192251'
-]
+	'#94A3B8', // SLATE-400
+	'#9CA3AF', // GRAY-400
+	'#A1A1AA', // ZINC-400
+	'#A3A3A3', // NEUTRAL-400
+	'#A8A29E', // STONE-400
+	'#A3E635', // LIME-400
+	'#6EE7B7', // EMERALD-400
+	'#4ADE80', // GREEN-400
+	'#34D399', // TEAL-400
+	'#22D3EE', // CYAN-400
+	'#38BDF8', // SKY-400
+	'#60A5FA', // BLUE-400
+	'#818CF8', // INDIGO-400
+	'#A5B4FC', // VIOLET-400
+	'#F472B6', // PINK-400
+	'#FB7185', // ROSE-400
+	'#FACC15', // YELLOW-400
+	'#FBBF24', // AMBER-400
+	'#F59E42', // ORANGE-400
+	'#F87171', // RED-400
+];
