@@ -943,14 +943,14 @@ setup(createElement, undefined, undefined, function (props) {
   }
 });
 var DEFAULTS = {
-  style: "character",
+  style: 'character',
   size: 32,
   shadow: false,
   border: false,
   borderSize: 2,
-  borderColor: "#fff"
+  borderColor: '#fff'
 };
-var Wrapper = /*#__PURE__*/styled('div')(_templateObject$1 || (_templateObject$1 = /*#__PURE__*/_taggedTemplateLiteralLoose(["\n  width: ", "px;\n  height: ", "px;\n  border-radius: ", "px;\n  background-color: #", ";\n\n  ", "\n\n  box-sizing: border-box;\n\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  user-select: none;\n\n  &:hover {\n    z-index: 3;\n  }\n\n  ", "\n"])), function (p) {
+var Wrapper = /*#__PURE__*/styled('div')(_templateObject$1 || (_templateObject$1 = /*#__PURE__*/_taggedTemplateLiteralLoose(["\n\twidth: ", "px;\n\theight: ", "px;\n\tborder-radius: ", "px;\n\tbackground-color: #", ";\n\n\t", "\n\n\tbox-sizing: border-box;\n\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tuser-select: none;\n\n\t&:hover {\n\t\tz-index: 3;\n\t}\n\n\t", "\n"])), function (p) {
   return p.size;
 }, function (p) {
   return p.size;
@@ -963,9 +963,7 @@ var Wrapper = /*#__PURE__*/styled('div')(_templateObject$1 || (_templateObject$1
 }, function (p) {
   return p.$shadow && "\n    box-shadow: \n      0px 3px 8px rgba(18, 18, 18, 0.04),  \n      0px 1px 1px rgba(18, 18, 18, 0.02);\n  ";
 });
-var Text = /*#__PURE__*/styled('p')(_templateObject2 || (_templateObject2 = /*#__PURE__*/_taggedTemplateLiteralLoose(["\n  /* Reset */\n  margin: 0;\n  padding: 0;\n  text-align: center;\n  box-sizing: border-box;\n\n  font-family: -apple-system, BlinkMacSystemFont, \"Inter\", \"Segoe UI\", Roboto, sans-serif;\n\n  font-size: ", "px;\n  color: #", ";\n  line-height: 0;\n  text-transform: uppercase;\n  font-weight: 500;\n"])), function (p) {
-  return Math.round(p.size / 100 * 37);
-}, function (p) {
+var Text = /*#__PURE__*/styled('p')(_templateObject2 || (_templateObject2 = /*#__PURE__*/_taggedTemplateLiteralLoose(["\n\t/* Reset */\n\tmargin: 0;\n\tpadding: 0;\n\ttext-align: center;\n\tbox-sizing: border-box;\n\n\tfont-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto,\n\t\tsans-serif;\n\n\tfont-size: 16px;\n\tcolor: #", ";\n\tline-height: 0;\n\ttext-transform: uppercase;\n\tfont-weight: 500;\n"])), function (p) {
   return p.color;
 });
 function Avvvatars(params) {
